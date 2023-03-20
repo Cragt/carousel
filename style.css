@@ -1,0 +1,46 @@
+.fade-left {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.5s, opacity 0.5s linear, transform 0.5s linear;
+  transform: translateX(-100px);
+}
+
+.fade-right {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.5s, opacity 0.5s linear, transform 0.5s linear;
+  transform: translateX(100px);
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  width: fit-content;
+}
+
+#previous {
+  background: gray;
+  opacity: 0.7;
+  width: 50px;
+  height: 100px;
+  border: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+#next {
+  background: gray;
+  opacity: 0.7;
+  width: 50px;
+  height: 100px;
+  border: 0;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
