@@ -44,3 +44,22 @@
   right: 0;
   transform: translateY(-50%);
 }
+
+#nav {
+  text-align: center;
+}
+
+.circle {
+  padding: 3px;
+  margin: 5px;
+  background-color: lightgray;
+  display: inline-block;
+  border: 1px black solid;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+}
+
+.filled {
+  background-color: black;
+}
